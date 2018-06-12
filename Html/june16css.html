@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./june16css.css">
+    <style>
+        p {
+            color: aqua
+        }
+        
+        p.para {
+            color: darkgoldenrod
+        }
+        
+        .para p {
+            color: royalblue
+        }
+        /* select all p tags which ae immediate child of div*/
+        
+        div>p {
+            color: crimson
+        }
+        
+        div+p {
+            color: darkgreen
+        }
+        /*select all p tags which are immediately after div*/
+    </style>
+
+    <!-- p.para is specified for the para if class is used, but if .para p is created then it can be used with any elemt wth class para. 
+        Priorty is given on the basis of call but basicaly priority is given to internal
+    if link rel is written after stylesheet then it will print the value of css file or else of stylesheet
+-->
+    <div>
+
+    </div>
+
+
+
+</head>
+
+<body>
+    <!--Css-->
+    <h1>
+        <p>
+            SEE
+        </p>
+    </h1>
+
+    <h1>
+        <p class="para">
+            LOL
+        </p>
+    </h1>
+    <div class="para">
+        <p>
+            <h1> Class
+            </h1>
+
+        </p>
+    </div>
+</body>
+
+</html>

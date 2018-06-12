@@ -1,0 +1,51 @@
+<html>
+
+<body>
+
+</body>
+
+<body>
+    <!-- Forms-->
+
+    <form>
+        <!-- Input type = text,email,checkbox,password, number,radio,color,file -->
+        <label for="nameInput">
+            Name:
+        </label> <input type="text" id="nameInput" name="Fullname" placeholder="Name" minlength="6" maxlength="20" required>
+        <!-- "label for" is used to active textbox when user click on the label of textboxuse
+        Name is used to submit data. -->
+        <label for="">
+                Email:
+            </label> <input type="text" name="userEmail" value="Sa@gmail.com">
+        <label for="">
+                    Amount:
+                </label> <input type="text" name="Amount" placeholder="RS 100">
+        <label for="">
+                        Age
+                    </label> <input type="text" name="Amount" value="18">
+
+        <!-- Placeholder is used so that we can put a temp value and value is used to give a default values-->
+        Gender
+        <label><input type="radio" name="Gender"value="Male">Male</label>
+        <label><input type="radio" name = "Gender" value="Female">Female</label>
+
+        <form> <input type="color">sahil</form>
+        <form> <input type="date">Date</form>
+        <form> <input type="datetime">Datetime</form>
+        <form> <input type="datetime-local">local</form>
+        <br> <input type="file">file<br>
+
+        <br> <select name="Class" required multiple> <!-- Multiple is used to select multiple values -->
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+        </select>
+
+        <br> <button type="submit">Submit</button><br>
+        <button type="reset">Reset</button>
+        <button type="button">Reload</button>
+    </form>
+
+</body>
+
+</html>
