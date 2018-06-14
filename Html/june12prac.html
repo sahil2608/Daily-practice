@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <!-- width fix the size of box if box-sizing is used with border box.property.-->
+    <style>
+        div.sec {
+            color: blueviolet;
+        }
+        
+        table {
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid purple;
+        }
+        
+        thead th:nth-child(1) {
+            width: 30%;
+            background-color: cadetblue;
+        }
+        
+        thead th:nth-child(2) {
+            width: 20%;
+            background-color: cornflowerblue;
+        }
+        
+        thead th:nth-child(3) {
+            width: 15%;
+            background-color: blue;
+        }
+        
+        thead th:nth-child(4) {
+            width: 35%;
+            background-color: darkblue;
+        }
+        
+        th,
+        td {
+            padding: 20px;
+        }
+        
+        thead,
+        tbody {
+            text-shadow: 1px white;
+        }
+        
+        tbody tr :nth-child(odd) {
+            background-color: aqua;
+        }
+        
+        tbody tr :nth-child(even) {
+            background-color: cadetblue;
+        }
+        
+        tbody tr {
+            background-image: url(noise.png);
+        }
+        
+        html {
+            font-family: 'helvetica neue', helvetica, arial, sans-serif;
+            color: brown;
+        }
+        
+        thead th,
+        tfoot th {
+            font-family: 'Rock Salt', cursive;
+        }
+        
+        th {
+            letter-spacing: 2px;
+        }
+        
+        td {
+            letter-spacing: 1px;
+        }
+        
+        tbody td {
+            text-align: center;
+        }
+        
+        tfoot th {
+            text-align: right;
+        }
+        
+        .first {
+            color: blue;
+            padding: 250px;
+            margin: 80px;
+            background-color: chartreuse;
+            width: 20px;
+            box-sizing: border-box;
+        }
+        
+        .intr {
+            color: chocolate;
+            padding: 50px;
+            margin: 50px;
+            width: 20px;
+            background-color: royalblue
+        }
+        
+        thead,
+        tfoot {
+            background-image: url(ROY.JPG)
+        }
+    </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div>
+        <div>
+            so how to do
+        </div>
+        <p class="first">
+            Come And Get It.
+        </p>
+
+        <p class="intr">
+            Come And Get It.
+        </p>
+    </div>
+    <table>
+        <caption>A summary of the UK's most famous punk bands</caption>
+        <thead>
+            <tr>
+                <th scope="col">Football Club</th>
+                <th scope="col">Year formed</th>
+                <th scope="col">No. of trophies</th>
+                <th scope="col">Most famous song</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Real Madrid</th>
+                <td>1902</td>
+                <td>13</td>
+                <td>Hala! Madird</td>
+            </tr>
+            <tr>
+                <th scope="row">liverpool</th>
+                <td>1894</td>
+                <td>5</td>
+                <td>Allez! Allez!</td>
+            </tr>
+
+            <tr>
+                <th scope="row">The Stranglers</th>
+                <td>1974</td>
+                <td>17</td>
+                <td>No More Heroes</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total albums</th>
+                <td colspan="2">77</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

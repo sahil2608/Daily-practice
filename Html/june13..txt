@@ -1,0 +1,11 @@
+flex-direction: row (default)
+primary axis-> x-axis
+secondry axis->y-axis
+
+flex-direction: Column
+primary axis-> y-axis
+secondry axis->x-axis
+
+@media screen and query()
+
+min width , max width

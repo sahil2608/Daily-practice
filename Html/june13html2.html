@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        /*   div {
+            background-color: aquamarine;
+            display: block;
+        }
+        
+        p {
+            display: inline-block;
+            background-color: brown;
+            padding: 20px;
+        }*/
+        
+        div {
+            /* 
+            justify content always work on primary axis
+            align content work on secondary axis
+             flex-direction: row (default)
+primary axis-> x-axis
+secondary axis->y-axis
+*/
+            flex-direction: column;
+            display: flex;
+            height: 220px;
+            justify-content: space-between;
+            background-color: aqua;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <p>first</p>
+        <p>second</p>
+        <p>third</p>
+
+    </div>
+
+</body>
+
+</html>
